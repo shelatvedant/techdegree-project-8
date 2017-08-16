@@ -1,12 +1,12 @@
 /* Tour page styles */
 
-pre {
-  font-family: 'Open Sans', sans-serif;
+caption {
+  visibility: hidden;
 }
 
 .heading{
   display: inline-block;
-  margin: 0;
+  margin-right: 0;
 }
 
 .pick{
@@ -14,3 +14,20 @@ pre {
   height: 0%;
   padding: 10px;
 }
+
+table{
+  max-width: 600px;
+  margin-left: 10px;
+}
+
+th, td{
+  padding: 5px 20px;
+}
+
+ th{
+   font-weight: bold;
+ }
+
+ td{
+   font-weight: 300;
+ }
