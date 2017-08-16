@@ -38,10 +38,6 @@ input[type="radio"]{
   margin-right: 0;
 }
 
-#john {
-  margin-left: 0;
-}
-
 input[type="text"], input[type="email"]{
  padding: .5em;
  border-radius: .5em;
@@ -70,6 +66,10 @@ textarea:focus {
 textarea{
   height: 5em;
   text-align: left;
+}
+
+.space{
+  margin-right: 8px;
 }
 
 button{
