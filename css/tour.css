@@ -27,8 +27,9 @@ th, td{
 
  th{
    font-weight: bold;
+   font-size: 1.1em;
  }
 
  td{
-   font-weight: 300;
+   font-weight: 400;
  }

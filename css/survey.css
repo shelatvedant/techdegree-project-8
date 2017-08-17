@@ -43,7 +43,6 @@ input[type="text"], input[type="email"]{
  border-radius: .5em;
  margin-bottom: 5px;
  margin-left: 15px;
- border: none;
  width: 300px;
 }
 
@@ -80,14 +79,14 @@ button{
   border:none;
   padding:10px;
   color: white;
-  background-color: #E67E22;
+  background-color: #47515D;
   border-radius: 8px;
   font-size: 1.4em;
 }
 
 button:hover{
   color: black;
-  background-color:#E7903C;
+  background-color:#ff7d66;
   font-weight: bold;
 }
 
@@ -98,7 +97,7 @@ button:hover{
   font-size: .75em;
   font-style: italic;
   text-align: right;
-  color:#ff6347;
+  color:#b31b00;
 }
 
 #text,
@@ -109,7 +108,7 @@ button:hover{
   font-size: .75em;
   font-style: italic;
   text-align: right;
-  color:#ff6347;
+  color:#b31b00;
 }
 
 /* Styles for larger screens */

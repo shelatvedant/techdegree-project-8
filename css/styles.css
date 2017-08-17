@@ -8,8 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #E08283;
-  background: #3f3d43;
+  color: #991700;
+  background: #e6e6e6;
 }
 
 /* Link Styles */
@@ -58,7 +58,7 @@ a {
 
 .nav a:hover {
   color: black;
-  background-color:#E7903C;
+  background-color:#ff7d66;
 }
 
 header {
@@ -71,14 +71,14 @@ header {
 }
 
 .buy{
-  background-color:#E67E22 ;
+  background-color:#47515D ;
   border-radius: 3px;
   padding: 15px 20px;
 }
 
 .buy:hover{
   color: black;
-  background-color:#E7903C;
+  background-color:#ff7d66;
 }
 
 .buy-margin{
@@ -141,7 +141,7 @@ header .name{
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ff5233;
+  color: #781125;
   margin-top: 10px;
 }
 
@@ -181,14 +181,20 @@ a.social {
 
 a.twitter {
   background-image: url(../img/twitter-32.png);
+  background-color: #47515D;
+  border-radius: 50%;
 }
 
 a.youtube {
   background-image: url(../img/youtube-32.png);
+  background-color: #47515D;
+  border-radius: 50%;
 }
 
 a.spotify {
   background-image: url(../img/spotify-32.png);
+  background-color: #47515D;
+  border-radius: 50%;
 }
 
 a.social:hover {
@@ -200,6 +206,8 @@ a.social:hover {
 }
 
 /* Styles for larger screens */
+
+
 @media screen and (min-width: 840px) {
 
   .flex {
