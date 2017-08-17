@@ -6,23 +6,30 @@ caption {
 
 .heading{
   display: inline-block;
-  margin-right: 0;
-  margin-top: -2px;
+  margin: -2px 0 0 0;
+  font-size: 1.85em;
+
 }
 
 .pick{
-  width: 40px;
+  width: 35px;
   height: 0%;
   padding: 10px;
 }
 
+.card{
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
 table{
-  max-width: 600px;
-  margin-left: 10px;
+  width: 360px;
+  margin:0 auto;
 }
 
 th, td{
-  padding: 5px 20px;
+  padding: 5px 0;
 }
 
  th{
@@ -31,5 +38,35 @@ th, td{
  }
 
  td{
-   font-weight: 400;
+   font-weight: 300;
  }
+
+@media screen and (min-width: 840px) {
+
+  .heading{
+    font-size: 2em;
+  }
+
+  .pick{
+    width: 40px;
+  }
+
+  .flex{
+    display: block;
+    text-align: center;
+  }
+
+  table{
+    text-align:left;
+    width: 600px;
+    margin:0 auto;
+  }
+
+  td{
+    font-weight: 400;
+  }
+
+  th, td{
+    padding: 5px 15px;
+  }
+}

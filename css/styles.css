@@ -12,6 +12,10 @@ body {
   background: #e6e6e6;
 }
 
+.para{
+  text-align: left;
+}
+
 /* Link Styles */
 
 a {
@@ -44,7 +48,8 @@ a {
   display: block;
   margin-right: auto;
   color: white;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
 .nav li {
@@ -100,14 +105,14 @@ header {
 }
 
 header .name{
-  font-size: 5em;
+  font-size: 2em;
 }
 
 .tagline {
   font-weight: bolder;
   padding: 5px;
   letter-spacing: 2px;
-  font-size: 2em;
+  font-size: 1.4em;
   color: #781125;
 }
 
@@ -221,12 +226,19 @@ a.social:hover {
     min-height: 470px;
   }
 
+  header .name{
+    font-size: 5em;
+  }
+
   .nav {
     max-width: 1200px;
     padding: 0 30px;
     font-size: 1.2em;
   }
 
+  .nav .name{
+    letter-spacing: 5px;
+  }
 
   main {
     padding-top: 20px;
@@ -234,6 +246,10 @@ a.social:hover {
 
   main p {
     line-height: 1.6em;
+  }
+
+  .tagline{
+    font-size: 2em;
   }
 
   .card{
